@@ -3,6 +3,7 @@
 
 #define MAX_COMMAND_LEN 8 // no specification were given in assignment !
 #define MAX_ARG_LEN 300 // no specification were given in assignment !
+#define MAX_PATH_LEN 100
 #define RUNNING 1
 
 struct Command // a command and its arg will be stored in an struct

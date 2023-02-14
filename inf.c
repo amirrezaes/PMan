@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 		fprintf(stderr, "Usage: inf tag interval\n");
 	} else {
 		const char* tag = argv[1];
-		int interval = atoi(argv[2]);
+		int interval = atoi(argv[1]);
 		while(1) {
 			printf("%s\n", tag);
 			sleep(interval);

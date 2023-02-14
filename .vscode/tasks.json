@@ -9,6 +9,7 @@
                 "-g",
                 "PMan.c",
                 "Functions.c",
+                "linkedlist.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
